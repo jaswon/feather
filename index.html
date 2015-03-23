@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -82,7 +81,7 @@
     window.setInterval(function() {
 
         t.tf[1][1] = .04+.005*Math.sin(cnt*cvrt);
-        cnt++;
+        cnt+=.5;
         if (cnt > 360) cnt = 1;
 
         gctx.fillStyle = 'rgba(255, 255, 255, .08)';
